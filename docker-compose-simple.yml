@@ -19,7 +19,7 @@ services:
   db:
     image: postgres:9.4
     environment:
-      POSTGRES_USER: "postgres"
+      POSTGRES_USER: "postgresd"
       POSTGRES_PASSWORD: "postgres"
 
   result:
